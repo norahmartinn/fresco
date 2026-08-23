@@ -10,6 +10,9 @@ decide lo que está a punto de caducar.
 | [`/carta/`](carta/) | El comensal | La carta franja a franja, con la recomendación de la casa y los textos que escribe el modelo de lenguaje. |
 | [`/cocina/`](cocina/) | El pase | Prioridad por ingrediente, el motivo de cada decisión, el texto que se publicó y el que no. |
 
+La landing del proyecto, que cuenta la idea entera, vive en su propio repositorio:
+<https://norahmartinn.github.io/foodie-flash-folio/>
+
 ## Cómo está montado
 
 Tres archivos HTML autocontenidos. Sin build, sin dependencias, sin servidor: todo

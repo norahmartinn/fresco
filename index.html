@@ -37,6 +37,18 @@ h1{font-family:var(--display);font-weight:400;font-size:clamp(30px,5.2vw,52px);l
   font-size:14px;border-radius:999px;padding:9px 20px}
 .tarjeta:hover .ir{background:var(--coral);color:var(--verde)}
 
+.banda{display:flex;align-items:center;gap:24px;flex-wrap:wrap;justify-content:space-between;
+  background:var(--verde);color:var(--crema);border-radius:20px;padding:28px 30px;margin:0 0 44px;
+  text-decoration:none;border:3px solid var(--verde);transition:transform .18s ease, box-shadow .18s ease}
+.banda:hover,.banda:focus-visible{transform:translateY(-4px);box-shadow:0 10px 0 rgba(31,61,42,.35)}
+.banda .txt{max-width:62ch}
+.banda .quien{font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--amarillo)}
+.banda h2{font-family:var(--display);font-weight:400;font-size:27px;margin:8px 0 8px;line-height:1.08;color:var(--crema)}
+.banda p{margin:0;font-size:15.5px;line-height:1.5;color:rgba(255,243,214,.82)}
+.banda .ir{background:var(--amarillo);color:var(--verde);font-weight:800;font-size:14px;
+  border-radius:999px;padding:11px 24px;white-space:nowrap}
+.banda:hover .ir{background:var(--coral)}
+
 .pie{border-top:3px solid var(--verde);padding-top:26px;display:grid;
   grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:26px;align-items:start}
 .pie h3{font-family:var(--display);font-weight:400;font-size:19px;margin:0 0 8px}
@@ -77,6 +89,16 @@ h1{font-family:var(--display);font-weight:400;font-size:clamp(30px,5.2vw,52px);l
       <span class="ir">Entrar</span>
     </a>
   </div>
+
+
+  <a class="banda" href="https://norahmartinn.github.io/foodie-flash-folio/">
+    <div class="txt">
+      <span class="quien">El proyecto contado entero</span>
+      <h2>La landing de FRESCÓ</h2>
+      <p>De dónde sale el problema, cómo decide la IA qué plato sube y qué pasa con lo que no se vende. Si es la primera vez que ves esto, empieza por aquí.</p>
+    </div>
+    <span class="ir">Ver la landing</span>
+  </a>
 
   <div class="pie">
     <div>
