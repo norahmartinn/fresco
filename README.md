@@ -11,7 +11,7 @@ decide lo que está a punto de caducar.
 | [`/cocina/`](cocina/) | El pase | Prioridad por ingrediente, el motivo de cada decisión, el texto que se publicó y el que no. |
 
 La landing del proyecto, que cuenta la idea entera, vive en su propio repositorio:
-<https://norahmartinn.github.io/foodie-flash-folio/>
+<https://norahmartinn.github.io/fresco-landing/>
 
 ## Cómo está montado
 
